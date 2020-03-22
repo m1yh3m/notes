@@ -14,4 +14,19 @@ Library issues Membership.
 User requests Membership.
 Membership can be of type: Offline, Online, Both.
 User can browse all physical and digital content online.
+User can checkout a book.
+User can return a checked out book.
 
+```javascript
+
+function searchBook(bookname) {
+  return allBooks.find(bookname)
+}
+
+function checkoutBook(searchedBook) {
+  if(searchedBook.isavailable) {
+    return searchedBook.checkout()
+  }
+}
+
+```

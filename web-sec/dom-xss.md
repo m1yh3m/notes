@@ -4,8 +4,6 @@ XSS can be achieved via DOM. This is also knonwn as DOM based XSS.
 
 aka type-0 XSS
 
-
-
 ## Links
 
 - https://owasp.org/www-community/Types_of_Cross-Site_Scripting
